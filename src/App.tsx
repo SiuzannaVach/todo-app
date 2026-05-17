@@ -35,6 +35,10 @@ function App() {
     >
       <h1>Task Manager</h1>
 
+      {/* Наш динамический счетчик количества задач */}
+      <p style={{ color: "#666" }}>Total tasks in your list: {tasks.length}</p>
+
+      {/* Блок формы ввода новой задачи */}
       <div style={{ marginBottom: "20px" }}>
         <input
           type="text"
@@ -48,6 +52,7 @@ function App() {
         </button>
       </div>
 
+      {/* Список элементов задач */}
       <ul
         style={{ textAlign: "left", paddingLeft: "0", listStyleType: "none" }}
       >
