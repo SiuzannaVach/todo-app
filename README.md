@@ -1,7 +1,3 @@
-# Neon Task Manager 🌌
-
-![Application Preview](./preview.png)
-
 # 🌌 Neon Task Manager
 
 ![Application Preview](./preview.png)
